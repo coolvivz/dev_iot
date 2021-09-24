@@ -1,0 +1,17 @@
+_schema-version: "3.2"
+ID: HC_DEV_IOT
+version: 0.0.1
+modules:
+- name: DEVIOT_HDB
+  type: hdb
+  path: DEVIOT_HDB
+  requires:
+  - name: hdi_DEVIOT_HDB
+resources:
+- name: hdi_DEVIOT_HDB
+  type: com.sap.xs.hdi-container
+  parameters:
+    config:
+      schema: DEV_IOT
+  properties:
+    hdi-container-name: ${service-name}

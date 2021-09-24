@@ -1,0 +1,1 @@
+COLUMN TABLE "dev_iot.iot.data::MABE_AWS_ZT_IOT_PRESENCE" ("presence_key" BIGINT  NOT NULL , "mac_address" NVARCHAR(28), "timestamp" LONGDATE , "state" NVARCHAR(10), "ipaddress" NVARCHAR(15), "procTimeStamp" LONGDATE , "dateTStamp" DATE , PRIMARY KEY ("presence_key")) UNLOAD PRIORITY 5  AUTO MERGE 

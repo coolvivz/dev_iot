@@ -1,0 +1,1 @@
+COLUMN TABLE "dev_iot.iot.data::MABE_AWS_ZT_T_ERD_MAPPINGS" ("erdid" NVARCHAR(6) NOT NULL , "field_count" TINYINT  NOT NULL , "field_name" NVARCHAR(30), "field_bits" INTEGER , "field_type" VARCHAR(1), "field_status" VARCHAR(1), PRIMARY KEY ("erdid", "field_count")) UNLOAD PRIORITY 5  AUTO MERGE 
