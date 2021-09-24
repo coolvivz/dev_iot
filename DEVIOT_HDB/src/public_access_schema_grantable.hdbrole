@@ -1,13 +1,25 @@
 {
-    "role": {
-        "name": "dev_iot.iot.data::PublicAccessSchema#",
-        "schema_privileges": [
-            {
-                "privileges_with_grant_option": [
-                    "SELECT",
-                    "EXECUTE"
-                ]
-            }
+  "role": {
+    "name": "dev_iot.iot.data::PublicAccessSchema#",
+    "schema_privileges": [
+      {
+        "privileges": [
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "CREATE ANY",
+          "SELECT",
+          "EXECUTE"
+        ],
+        "privileges_with_grant_option": [
+          "SELECT",
+          "EXECUTE",
+          "CREATE ANY",
+          "DELETE",
+          "UPDATE",
+          "INSERT"
         ]
-    }
+      }
+    ]
+  }
 }
