@@ -1,0 +1,13 @@
+{
+    "role": {
+        "name": "dev_iot.iot.data::PublicAccessSchema#",
+        "schema_privileges": [
+            {
+                "privileges_with_grant_option": [
+                    "SELECT",
+                    "EXECUTE"
+                ]
+            }
+        ]
+    }
+}
